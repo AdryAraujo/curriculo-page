@@ -1,0 +1,92 @@
+/* .App {
+  background-color: #e6e6fa;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-left{
+  justify-content: left;
+  display: flex;
+}
+
+.img-right{
+  justify-content: right;
+}
+
+.descricao{
+  width: 1133.75px;
+  height: 479.83px;
+  background: #FFFFFF;
+  border-radius: 90px;
+  border: 1px solid #C1C1F3;
+} */
+
+.App {
+  background-color: #e6e6fa;
+
+  display: flex; /* Enable flexbox for the main container */
+  justify-content: center; /* Center the child elements horizontally */
+  align-items: center; /* Center the child elements vertically */
+  height: 100vh; /* Set the height to 100% of the viewport */
+}
+
+.container {
+  display: flex; /* Enable flexbox for the inner container */
+  flex-direction: row; /* Arrange elements in a row */
+  align-items: center; /* Center the child elements vertically */
+  width: 100%; /* Stretch the container to fill the available width */
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.container img {
+  flex: 0 0 auto; /* Allow images to shrink but not grow */
+  max-width: 50%; /* Set a maximum width for each image */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.descricao {
+  flex: 1 1 auto; /* Allow the description to grow and shrink */
+  text-align: center; /* Center the text within the description */
+  width: 1133.75px;
+  height: 479.83px;
+  background: #FFFFFF;
+  border-radius: 90px;
+  border: 1px solid #C1C1F3;
+  box-shadow: 0px 4px 4px #C1C1F3;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
