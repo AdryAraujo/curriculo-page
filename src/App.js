@@ -6,20 +6,17 @@ import perfil from './perfil.svg';
 
 function App() {
   return (
-    <div className="App">
-              
+    <div className="App">     
       <div className='nav'>
         ddddddd
-
       </div>
-      <img src={perfil} alt="logo" />
-
+      <img id='perfil' src={perfil} alt="logo" />
       <div className="container">
-        {/* <img src={bolha1} alt="logo" /> */}
+        <img id='bolha1' src={bolha1} alt="logo" />
         <div className="descricao">
           <h1>ssjjsjsjjsj</h1>
         </div>
-        {/* <img src={bolha2} alt="logo" /> */}
+        <img id='bolha2' src={bolha2} alt="logo" />
       </div>
     </div>
   );
