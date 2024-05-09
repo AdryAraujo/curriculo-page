@@ -1,13 +1,71 @@
-body {
+ body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
 }
-
+/*
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+:root{
+  --primary-color: #8181E6;
+  --secondary-color: #C1C1F3;
+  --tertiary-color: #9696EA;
+  --branco-color: #ffffff;
+  --cinza-color: #656568;
+  --background-color: #E6E6FA;
+
+
+  --primary-color-gradient: linear-gradient(to bottom, var(--primary-color), #2D8B59);
+
+  --shadow-black-01: rgba(0,0,0, 0.2);
+
+  --box-shadow-01: 4px 4px 4px var(--shadow-black-01);
+  --box-shadow-02: 2px 2px 2px var(--shadow-black-01);
+
+  --text-shadow-01: 4px 4px 4px var(--shadow-black-01);
+  --text-shadow-02: 2px 2px 2px var(--shadow-black-01);
+  
+  --image-shadow-01: drop-shadow(4px 4px 4px var(--shadow-black-01)); /* eh um backdrop-filter */
+
+  --transition-time-01: 0.15s;
+
+  --anim-duration: 0.2s;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+html{
+  background-color: white;
+}
+
+/* body{
+  max-width: 1500px;
+  margin: auto !important;
+  box-shadow: var(--box-shadow-02);
+  font-family: "Inter", sans-serif;
+} */
+
+h1 {
+  overflow-wrap: break-word;
+  font-family: 'Inknut Antiqua';
+}
+
+a{
+  color: var(--branco-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--primary-color);
+  background-color: var(--branco-color);
+  border-radius: 12px;
 }
