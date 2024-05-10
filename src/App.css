@@ -149,7 +149,7 @@
   border-radius: 12px;
   box-shadow: var(--box-shadow-01);
   background: var(--branco-color);
-  line-height: 25px;
+  line-height: 35px;
   width: 340px;
   height: 460px;
   padding: 20px;
@@ -170,7 +170,7 @@
 }
 
 .tools-card button{
-  align-items: end;
+  bottom: 0;
 }
 
 .button-card{
@@ -185,7 +185,6 @@
   letter-spacing: 0.05em;
   word-spacing: 0.2em;
   margin-top: 30px;
-  
 }
 
 .button-card:hover{

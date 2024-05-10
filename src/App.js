@@ -25,9 +25,6 @@ import { FaReact } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
 
-
-
-
 function App() {
   return (
     <div className="app">
@@ -62,24 +59,30 @@ function App() {
         <div className='tools-card'>
           <h2>Front-End</h2>
           <ul>
-            <li><MdHome/>HTML</li>
-            <li>JavaScript</li>
+            <li><FaHtml5/>HTML</li>
+            <li><IoLogoJavascript/>JavaScript</li>
+            <li><FaCss3Alt/>CSS</li>
+            <li><FaReact/>React</li>
+            <li><SiMui/>Material Ui</li>
+            <li><SiChakraui/>Chakra Ui</li>
+            <li><BsBootstrapFill/>Bootstrap</li>
           </ul>
           <button className='button-card'>Acesse o Portfólio</button>
         </div>
         <div className='tools-card'>
-          <h2>Front-End</h2>
+          <h2>Web Design</h2>
           <ul>
-            <li><MdHome/>HTML</li>
-            <li>JavaScript</li>
+            <li><FaFigma/>Figma</li>
+            <li><SiCanva/>Canva</li>
           </ul>
           <button className='button-card'>Acesse o Portfólio</button>
         </div>
         <div className='tools-card'>
-          <h2>Front-End</h2>
+          <h2>Business Inteligence</h2>
           <ul>
-            <li><MdHome/>HTML</li>
-            <li>JavaScript</li>
+            <li><MdHome/>Power Bi</li>
+            <li>Pentaho</li>
+            <li>Postgresql</li>
           </ul>
           <button className='button-card'>Acesse o Portfólio</button>
         </div>
