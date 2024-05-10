@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/curriculo-page/static/css/main.eb70805d.css",
-    "main.js": "/curriculo-page/static/js/main.c3d70db0.js",
+    "main.css": "/curriculo-page/static/css/main.0bb3d582.css",
+    "main.js": "/curriculo-page/static/js/main.b0fde1e0.js",
     "static/js/453.1407b060.chunk.js": "/curriculo-page/static/js/453.1407b060.chunk.js",
     "static/media/perfil.png": "/curriculo-page/static/media/perfil.71aa61a13a9b7f139389.png",
     "static/media/computer.svg": "/curriculo-page/static/media/computer.f6bd6f77fde1612d67460c2388a4904d.svg",
     "static/media/background.svg": "/curriculo-page/static/media/background.032416af79d308fa9f019dcf60d4d3f6.svg",
     "index.html": "/curriculo-page/index.html",
+    "static/media/bolha3.svg": "/curriculo-page/static/media/bolha3.925d05b3bfcf94897e04672f64a14768.svg",
     "static/media/bolha1.svg": "/curriculo-page/static/media/bolha1.6586501c98f016a95405fb560521ad32.svg",
+    "static/media/bolha4.svg": "/curriculo-page/static/media/bolha4.754341155d595460f462adbb27629251.svg",
     "static/media/bolha2.svg": "/curriculo-page/static/media/bolha2.c1cea293e3cea8693b66ad6f77163b0f.svg",
-    "main.eb70805d.css.map": "/curriculo-page/static/css/main.eb70805d.css.map",
-    "main.c3d70db0.js.map": "/curriculo-page/static/js/main.c3d70db0.js.map",
+    "main.0bb3d582.css.map": "/curriculo-page/static/css/main.0bb3d582.css.map",
+    "main.b0fde1e0.js.map": "/curriculo-page/static/js/main.b0fde1e0.js.map",
     "453.1407b060.chunk.js.map": "/curriculo-page/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb70805d.css",
-    "static/js/main.c3d70db0.js"
+    "static/css/main.0bb3d582.css",
+    "static/js/main.b0fde1e0.js"
   ]
 }
