@@ -1,12 +1,32 @@
 import logo from './background.svg';
 import './App.css';
+
+// imagens
 import bolha1 from './bolha1.svg'
 import bolha2 from './bolha2.svg'
 import bolha3 from './bolha3.svg'
 import bolha4 from './bolha4.svg'
 import perfil from './perfil.png';
 import computer from './computer.svg';
+
+// icones
 import { MdHome } from "react-icons/md";
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3Alt } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
+import { SiMui } from "react-icons/si";
+import { SiChakraui } from "react-icons/si";
+import { BsBootstrapFill } from "react-icons/bs";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { FaFigma } from "react-icons/fa";
+import { SiCanva } from "react-icons/si";
+import { SiPowerbi } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io";
+
+
+
 
 function App() {
   return (
