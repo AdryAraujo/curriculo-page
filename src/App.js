@@ -45,6 +45,7 @@ function App() {
             <li><MdHome/>HTML</li>
             <li>JavaScript</li>
           </ul>
+          <button className='button-card'>Acesse o Portfólio</button>
         </div>
         <div className='tools-card'>
           <h2>Front-End</h2>
@@ -52,6 +53,7 @@ function App() {
             <li><MdHome/>HTML</li>
             <li>JavaScript</li>
           </ul>
+          <button className='button-card'>Acesse o Portfólio</button>
         </div>
         <div className='tools-card'>
           <h2>Front-End</h2>
@@ -59,6 +61,7 @@ function App() {
             <li><MdHome/>HTML</li>
             <li>JavaScript</li>
           </ul>
+          <button className='button-card'>Acesse o Portfólio</button>
         </div>
       </div>
     </div>
